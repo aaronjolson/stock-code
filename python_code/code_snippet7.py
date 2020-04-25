@@ -11,10 +11,6 @@ import logging
 import argparse
 from collections import Sequence
 
-__version__             = "0.1"
-__license__             = "MIT License"
-__description__         = "Etrigan: a python daemonizer that rocks."
-
 path = os.path.dirname(os.path.abspath(__file__))
 
 class Etrigan(object):
