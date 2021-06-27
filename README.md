@@ -32,7 +32,7 @@ single file, read out code at constant default speed
 two files, from different directories, read out at non-constant rate
 
     python code_reader.py --ftr python_code/code_snippet1.py c_code/code_snippet1.c --rsmax=.3 --rsmin=.0001 
-
+    python code_reader.py --ftr python_code/code_snippet5.py --rsmax=.08 --rsmin=.00001 
 multi-file, all from the same directory, read out at non-constant rate
 
     python code_reader.py --sd='c_code/' --ftr code_snippet1.c code_snippet2.c --rsmax=.3 --rsmin=.0001
@@ -44,7 +44,7 @@ basic run, all defaults
     
 run with spaces, a smaller data chunk size, and set slower output speed
 
-    python random_hex_dump.py --spaces=True --chars=5 --speed=.1
+    python random_hex_dump.py --spaces=True --chars=40 --speed=.05
     
 run with randomly sized data chunks
 
